@@ -6,7 +6,7 @@ body {
     align-items: center;
 }
 .bg {
-    background-image: url("Capture.PNG");
+    background-image: url("Capture.png");
     background-size: cover;
 }
 a{
@@ -24,6 +24,7 @@ ul {
 li {
     padding: 10px;
     cursor: pointer;
+    font-size: xx-large;
 }
 .selected {
     background-color: rgba(238, 255, 0, 0.946);
