@@ -6,8 +6,10 @@ body {
     align-items: center;
 }
 .bg {
-    background-image: url("Capture.png");
-    background-size: cover;
+    background-image: url(../img/Capture.png);
+    background-size: contain;
+    background-color: 0, 0, 0, 0.1;
+    
 }
 a{
     text-decoration: none;
@@ -39,6 +41,7 @@ header {
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
+    text-shadow: 10px 10px 10px 10px ;
 }
 /* .cover{
     position: relative;
