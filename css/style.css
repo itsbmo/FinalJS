@@ -25,6 +25,7 @@ li {
     padding: 10px;
     cursor: pointer;
     font-size: xx-large;
+    border: 1px solid grey;
 }
 .selected {
     background-color: rgba(238, 255, 0, 0.946);
@@ -91,7 +92,10 @@ h3{
     height: 100%;
     background-image: url('./img/Capture.PNG');
 }
-
+button:active{
+    background: grey;
+    outline: none;
+}
 /* .flip-card {
     background-color: transparent;
     width: 100%;
